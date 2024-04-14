@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT US</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact{
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(chef.jpeg);
+            background-size: cover;
+        }
+        .contact.content{
+            max-width: 800px;
+            text-align: center;
+        }
+        .contact.content h2{
+            font-size: 36px;
+            font-weight: 500;
+            color: #fff;
+        }
+        .contact.content p{
+            font-weight: 300;
+            color: #fff;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .container.contactinfo{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .contactinfo .box{
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        .container .contactinfo .box .text h3{
+            font-weight: 500;
+            color: #00bcd4;
+        }
+        .contactform{
+            width: 40%;
+            padding: 40px;
+            background: #fff;
+        }
+        .contactform h2{
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+        .contactform .inputbox{
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .contactform .inputbox input,
+        .contactform .inputbox textarea
+        {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+        .contactform .inputbox span{
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+        }
+        .contactform .inputbox input:focus ~ span,
+        .contactform .inputbox input:valid ~ span,
+        .contactform .inputbox textarea:focus ~ span, 
+        .contactform .inputbox textarea:focus ~ span
+        {
+            color: #e91e63;
+            font-size: 12px;
+            transform: translate(-20px);
+        }
+        .contactform .inputbox input[type="submit"]{
+            width: 100px;
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+        }
+        @media (max-width: 991px)
+        {
+            .contact{
+                padding: 50px;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .contact .contactinfo{
+                margin-bottom: 40px;
+            }
+            .container .contactinfo{
+                width: 100%;
+            }
+        }
+        h2{
+            font-size: 70px;
+            color: rgb(231, 191, 60);
+        }
+        p{
+            color: #fff;
+        }
+        .contact.content p{
+            color: #fff;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2><center>CONTACT US</center></h2>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>4671 Sugar Camp Road,<br>Owatonna, Minnesota,</p></br></p>
+                    </div>
+                </div>
+                <div class="box">
+                    
+                    <div class="text">
+                        <h3>PHONE</h3>
+                        <p>654-755-6356</p>
+                    </div>
+                </div>
+                <div class="box">
+                    
+                    <div class="text">
+                        <h3>E-MAIL</h3>
+                        <p>buonappetito6312@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2><center>SEND MESSAGE</center></h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message..</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

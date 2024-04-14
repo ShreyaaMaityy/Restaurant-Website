@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DRINKS & COCKTAILS</title>
+    <style>
+        .wrapper{
+            width: 1200px;
+            margin: 100px auto;
+        }
+        .title{
+            text-align: center;
+            margin-bottom: 63px;
+        }
+        .title h4{
+            text-transform: capitalize;
+            font-size: 70px;
+            position: relative;
+            display: inline block;
+            padding-bottom: 10px;
+        }
+        .title h4 span{
+            display: block;
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .title h4:before{
+            position: absolute;
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: #ff7720;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .single-menu{
+            flex-basis: 580px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .single-menu:nth-child(5),.single-menu:nth-child(6){
+            border-bottom: 0;
+        }
+        .single-menu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .single-menu:hover img{
+            border-radius: 0;
+        }
+        .single-menu img{
+            max-width: 180 px;
+            margin-right: 30px;
+            border-radius: 50%;
+            border: 1px solid #ddd;
+            padding: 3px;
+            transition: 0.5s;
+            height: 100px;
+        }
+        .single-menu h4{
+            text-transform: capitalize;
+            font-size: 22px;
+            border-bottom: 1px dashed rgb(78, 29, 29);
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+        }
+        .single-menu h4 span{
+            float: right;
+            color: #ff7720;
+            font-style: italic;
+        }
+        body{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(drinks\ back.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: right;
+            position: relative;
+            background-attachment: fixed;
+        }
+        h4{
+            color: #ddd;
+        }
+        p{
+            color: #ddd;
+            font-size: 20px;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h4><span>A Moment of Chill...</span>DRINKS & COCKTAILS</h4>
+        </div>
+        <div class="menu">
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr1.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>AMERICANO<span>$3.99</span></h4>
+                    <p>CamparI, Sweet Vermouth, Top with club soda, GarnishED with an orange twist.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr2.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>NEGRONI<span>$7.99</span></h4>
+                    <p>Gin, Campari,  Vermouth, Garnished with Orange Twist.
+                        </p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr3.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>NAGRONI SPHAGLIATO<span>$9.99</span></h4>
+                    <p>Campari, Sweet Vermouth, Prosecco, Garnished with an orange twist.
+                        </p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr4.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>APEROL SPRITZ<span>$9.99</span></h4>
+                    <p>Prosecco, Aperol, Soda Water, Garnished with orange slice.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr5.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>BELLINI<span>$5.99</span></h4>
+                    <p>Peach Puree (chilled), Top with Prosecco (chilled), Garnished with a slice of fresh peach</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr6.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>ROSSINI<span>$5.99</span></h4>
+                    <p>Strawberry Puree (chilled), Top with Prosecco (chilled), Garnished with a slice of fresh strawberries</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr7.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>ANGELO AZZURRO<span>$5.99</span></h4>
+                    <p>Cointreau, Limoncello, Gin, Sweet Vermouth, Garnished with a fruit of your choice.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr8.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>THE GODFATHER<span>$5.99</span></h4>
+                    <p>Amaretto, Bourbon Whiskey</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr9.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>THE GARIBALDI<span>$5.99</span></h4>
+                    <p>Campari, Freshly squeezed Orange Juice, Garnished with a slice of Blood Orange.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr10.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>PIRLO<span>$5.99</span></h4>
+                    <p>Cappelletti, White Wine, Garnished with an Orange Slice.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr11.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>HUGO<span>$5.99</span></h4>
+                    <p>Prosecco, Elderflower, Soda Water, Garnished with half an Orange Wheel, a Lime Wedge and Fresh Mint Leaves.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr12.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>PUCCINI<span>$5.99</span></h4>
+                    <p>Prosecco (Chilled), Mandarin Juice.</p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="/Users/shreyamaity/Documents/RESTAURANT WEBSITE/dr13.jpeg" alt="">
+                <div class="menu-content">
+                    <h4>GIN & IT<span>$5.99</span></h4>
+                    <p>Gin, Sweet Vermouth, Dash of Orange Bitters, Garnished with Orange Twist.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
